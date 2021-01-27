@@ -1,49 +1,48 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Laporan Keuangan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <title>Document</title>
+
+   
 </head>
+
 <body>
-  <div class="container-fluid">
-    <div class="animated fadeIn">
- 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-            <div class="card-header">Laporan Keuangan</div>
-            <div class="card-body">
-              <!-- CONTENT -->
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>No</th>
-                    <th>id</th>
-                    <th>Nama</th>
-                    
-                    <th>Jumlah Terjual</th>
-                    <th>Total Harga</th>
-                                       
-                  </tr>
-                </thead>
-                <tbody>
-                 
-                    <tr>
-                    
-                </tbody>
-              </table>
-              <a href="index.php?modules=lihatlaporan" class="btn btn-primary">Tambah Data</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-->
-      </div>
-      <!-- /.row-->
-      <!-- /.row-->
-    </div>
-  </div>
+<table id="tabel-data" class="table table-striped table-bordered" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Statistik Penjualan Per Hari ini </th>
+            <th>Total Pendapatan</th>
+            
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>No</th>
+            <th>Statistik Penjualan Per Hari ini</th>
+            <th>Total Pendapatan</th>
+            
+        </tr>
+    </tfoot>
+   <tbody>
+       <th>1</th>
+       <th>Rp 500.000</th>
+       <th>Rp 10.000.000</th>
+        </tbody>
+         <a href="index.php?modules=lihatlaporan" class="btn btn-primary">Cetak</a>
+</table>
 </body>
 </html>
+
+
+
+<script>
+    $(document).ready(function(){
+        $('#tabel-data').DataTable();
+    });
+</script>
+

@@ -68,7 +68,7 @@ if ($idpelangganyanglogin !== $idpelangganyangbeli) {
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-							<li><a href="#"><i class="fa fa-phone"></i> +6289 8686 0201</a></li>
+							<li><a href="#"><i class="fa fa-phone"></i> +6285 1552 3987</a></li>
 								<li><a href="#"><i class="fa fa-envelope"></i> karyautama</a></li>
 							</ul>
 						</div>
@@ -282,7 +282,7 @@ if (isset($_POST['kirim'])) {
 					<div class="container">
 						<div class="row">
 							<p class="pull-left">Copyright © 2019 Utama Karya Inc. All rights reserved.</p>
-							<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+							<p class="pull-right">Designed by <span><a target="_blank" href="http://www.Karyautama.com">Karyautama</a></span></p>
 						</div>
 					</div>
 				</div>

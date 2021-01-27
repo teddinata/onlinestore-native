@@ -44,7 +44,7 @@ if (!isset($_SESSION['pelanggan']))
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-								<li><a href=""><i class="fa fa-phone"></i> +6281 326 510 747</a></li>
+								<li><a href=""><i class="fa fa-phone"></i> +6285 1552 3987</a></li>
 								<li><a href=""><i class="fa fa-envelope"></i> hitus@karyautama.com</a></li>
 							</ul>
 						</div>
@@ -252,7 +252,7 @@ if (!isset($_SESSION['pelanggan']))
 					<div class="container">
 						<div class="row">
 							<p class="pull-left">Copyright © 2019 Utama Karya Inc. All rights reserved.</p>
-							<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+							<p class="pull-right">Designed by <span><a target="_blank" href="http://www.Karyautama.com">Karyautama</a></span></p>
 						</div>
 					</div>
 				</div>
